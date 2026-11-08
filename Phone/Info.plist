@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AjoloHealthEntitlements</key>
+	<string>$(CODE_SIGN_ENTITLEMENTS)</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_ajolo-pixel._tcp</string>
+		<string>_ajolo-pixel._udp</string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Ajoló uses recent exercise, workouts, and any State of Mind entries you share to let your axolotl react on your iPhone.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Ajoló finds nearby iPhones so your axolotls can meet.</string>
+</dict>
+</plist>
